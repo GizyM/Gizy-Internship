@@ -4,6 +4,8 @@ import axios from "axios";
 import EthImage from "../images/ethereum.svg";
 import { Link } from "react-router-dom";
 
+/* Adding this change so pull request can be merged */
+
 const ItemDetails = () => {
   const [itemDetails, setItemDetails] = useState(null);
 

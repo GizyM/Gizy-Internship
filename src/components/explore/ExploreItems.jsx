@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+/* Adding change so that pull request can be merged*/
+
 const ExploreItems = ({ exploreItems }) => {
   const [visibleItems, setVisibleItems] = useState(8);
   const [filter, setFilter] = useState("");

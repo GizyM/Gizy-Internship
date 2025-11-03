@@ -6,6 +6,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+/* Adding this change in order to git pull in project terminal */
+
 const HotCollections = ({ cards }) => {
   useEffect(() => {
     AOS.init()
@@ -26,9 +28,6 @@ const HotCollections = ({ cards }) => {
     },
   };
 
-/* Added this change so that pull request can be merged */
-
-const HotCollections = ({ }) => {
   return (
     <section id="section-collections" className="no-bottom">
       <div className="container">
@@ -82,6 +81,7 @@ const HotCollections = ({ }) => {
               </div>
             </div>
           )}
+          
         </div>
       </div>
     </section>

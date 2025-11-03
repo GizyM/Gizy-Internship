@@ -5,7 +5,7 @@ import nftImage from "../../images/nftImage.jpg";
 
 /* Added this change so that pull request can be merged */
 
-const HotCollections = () => {
+const HotCollections = ({ }) => {
   return (
     <section id="section-collections" className="no-bottom">
       <div className="container">
